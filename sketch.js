@@ -6,8 +6,8 @@ var rows, cols;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  rows = floor(width/scl);
-  cols = floor(height/scl);
+  rows = Math.ceil(width/scl);
+  cols = Math.ceil(height/scl);
   
 }
 
